@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name" translatable="false">Find Him 30 seconds</string>
+    <string name="find_location">Find Location</string>
+    <string name="find_your_friend">Find Your Friend</string>
+    <string name="enter_the_number_of_the_friend_whose_location_you_want_to_find">Enter the number of the friend whose location you want to find.</string>
+    <string name="completed">Completed</string>
+    <string name="searchingcountry">Searching Country...</string>
+    <string name="citysearch">Searching City...</string>
+    <string name="locadeter">Location Determined</string>
+    <string name="yourlocation">Your Location</string>
+    <string name="pick_from_contact">Choose From Contacts</string>
+    <string name="or">Or</string>
+    <string name="type_number">Type Number</string>
+    <string name="enternumber">Please Enter A Number</string>
+    <string name="entervalidnumber">Please Enter A Valid Number</string>
+    <string name="get_pro">Get Pro</string>
+    <string name="feature_one">Feature One</string>
+    <string name="feature_two">Feature Two</string>
+    <string name="feature_three">Feature Three</string>
+    <string name="onevalue">1 Coin</string>
+    <string name="twovalue">5 Coin</string>
+    <string name="continu">Continue</string>
+    <string name="location_searching">Location Searching...</string>
+
+
+</resources>

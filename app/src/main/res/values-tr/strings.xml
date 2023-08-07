@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="find_location">Konum Bul</string>
+    <string name="find_your_friend">Arkadaşını Bul</string>
+    <string name="enter_the_number_of_the_friend_whose_location_you_want_to_find">Konumunu bulmak istediğiniz kişinin numarasını girin.</string>
+    <string name="completed">Tamamlandı</string>
+    <string name="searchingcountry">Ülke aranıyor...</string>
+    <string name="citysearch">Şehir Aranıyor...</string>
+    <string name="locadeter">Konum Belirlendi</string>
+    <string name="yourlocation">Konumunuz</string>
+    <string name="pick_from_contact">Kişilerden Seç</string>
+    <string name="or">Veya</string>
+    <string name="type_number">Numarayı Giriniz</string>
+    <string name="enternumber">Lütfen bir numara girin</string>
+    <string name="entervalidnumber">Lütfen geçerli bir numara girin</string>
+    <string name="get_pro">Pro\'ya Yükseltin</string>
+    <string name="feature_one">Feature One</string>
+    <string name="feature_two">Feature Two</string>
+    <string name="feature_three">Feature Three</string>
+    <string name="onevalue">1 Jeton</string>
+    <string name="twovalue">5 Jeton</string>
+    <string name="continu">Devam</string>
+    <string name="location_searching">Konum Bulunuyor...</string>
+
+
+</resources>

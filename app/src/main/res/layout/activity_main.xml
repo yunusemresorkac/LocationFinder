@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card_bg1"
+    tools:context=".MainActivity">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimation"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        app:lottie_fileName="location_anim.json"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lottieAnimation"
+        android:gravity="center"
+        android:padding="@dimen/_4sdp"
+        android:id="@+id/infoLay"
+        android:layout_margin="@dimen/_4sdp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/allerta"
+            android:text="@string/find_your_friend" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allerta"
+            android:gravity="center"
+            android:text="@string/enter_the_number_of_the_friend_whose_location_you_want_to_find"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoLay"
+        android:id="@+id/numberLay"
+        android:gravity="center"
+        android:padding="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <com.hbb20.CountryCodePicker
+            app:ccp_defaultNameCode="IND"
+            android:id="@+id/country_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:ccp_autoDetectCountry="true"
+            app:ccp_showFlag="true"
+            app:ccp_showNameCode="false"
+        >
+        </com.hbb20.CountryCodePicker>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rect_border"
+            android:id="@+id/phoneNumberEt"
+            android:layout_margin="@dimen/_8sdp"
+            android:hint="@string/type_number"
+            android:inputType="phone"
+            android:textSize="15sp"
+            android:textColorHint="@color/black"
+            android:fontFamily="@font/allerta"
+            android:padding="@dimen/_10sdp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/numberLay"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/or"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:fontFamily="@font/allerta"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pick_from_contact"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/allerta"
+            android:id="@+id/pickFromContact"
+            android:textSize="20sp"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardUseCompatPadding="true"
+        android:id="@+id/findLocationBtn"
+        app:cardElevation="@dimen/_2sdp"
+        android:layout_margin="@dimen/_4sdp"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_bg2"
+
+            android:padding="@dimen/_8sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/location_pin_svgrepo_com"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/allerta"
+                android:text="@string/find_location"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

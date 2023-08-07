@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "474254400830",
+    "project_id": "locaapp-dbcfa",
+    "storage_bucket": "locaapp-dbcfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474254400830:android:8bbff100dd8b3ef167206f",
+        "android_client_info": {
+          "package_name": "com.centura.findhim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474254400830-n1vcjb86gn3cdn22hmosgfs41fvh0b4d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.centura.findhim",
+            "certificate_hash": "8451041fe811890aec6924d5b5e87fe9a5aab0c6"
+          }
+        },
+        {
+          "client_id": "474254400830-nb16or0ht1bl6ae1dnkr0kuhbmr6og05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuTjT6HbHiAgFdLiWl-L1OlUElQx0kuog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474254400830-nb16or0ht1bl6ae1dnkr0kuhbmr6og05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
